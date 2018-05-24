@@ -21,6 +21,8 @@ const normalizePayload = require('normalizePayload');
 const normalizeRelayPayload = require('normalizeRelayPayload');
 const warning = require('warning');
 
+const FakeVariable = 'this is just change for the sake of change';
+
 const {getOperationVariables} = require('RelayConcreteVariables');
 const {createOperationSelector} = require('RelayModernOperationSelector');
 
